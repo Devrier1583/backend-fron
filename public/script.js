@@ -1,4 +1,7 @@
-const apiUrl = 'http://localhost:5000/api/items'; // URL de la API para los items
+//const apiUrl = 'http://localhost:3000/api/items'; // URL de la API para los items
+
+const apiUrl = `${window.location.origin}/api/items`; // URL dinámica basada en el dominio actual
+
 
 // Función para obtener todos los items desde el backend
 function getItems() {
@@ -125,7 +128,7 @@ document.getElementById('obtener_items').addEventListener('click', (e) => {
   alert("Items obtenidos");
 });
 
-document.getElementById('limpiar_items').addEventListener('click', (e) => {
+  document.getElementById('limpiar_items').addEventListener('click', (e) => {
   e.preventDefault();
   const itemsLists = document.getElementById('items-list');
   itemsLists.innerHTML = '';

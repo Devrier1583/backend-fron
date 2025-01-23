@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node backend/src/app.js"
   },
-  "author": "",
+  "author": "Devrier",
   "license": "ISC",
-  "description": "",
+  "description": "CRUD",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
