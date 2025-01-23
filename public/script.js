@@ -1,6 +1,6 @@
-//const apiUrl = 'http://localhost:3000/api/items'; // URL de la API para los items
+const apiUrl = 'http://localhost:3000/api/items'; // URL de la API para los items
 
-const apiUrl = `${window.location.origin}/api/items`; // URL dinámica basada en el dominio actual
+//const apiUrl = `${window.location.origin}/api/items`; // URL dinámica basada en el dominio actual
 
 
 // Función para obtener todos los items desde el backend
